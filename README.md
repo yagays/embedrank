@@ -4,7 +4,7 @@ Python Implementaion of "[Simple Unsupervised Keyphrase Extraction using Sentenc
 
 ## Usage
 
-EmbedRank requires pretrained document embeddings (now doc2vec supported).Please see [my blog ](https://yag-ays.github.io/project/pretrained_doc2vec_wikipedia/) for using pretrained Japanese doc2vec models.
+EmbedRank requires pretrained document embeddings (now doc2vec supported). Please see [my blog ](https://yag-ays.github.io/project/pretrained_doc2vec_wikipedia/) for using pretrained Japanese doc2vec models.
 
 ```py
 from gensim.models.doc2vec import Doc2Vec
