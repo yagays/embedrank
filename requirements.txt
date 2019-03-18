@@ -1,0 +1,4 @@
+mecab-python3==0.7
+gensim==3.7.0
+scikit-learn==0.20.3
+bottle==0.12.16
