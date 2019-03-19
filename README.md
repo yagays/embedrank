@@ -36,12 +36,12 @@ In []: embedrank.extract_keyword(text)
 
 Set the extracted doc2vec model in `model/` directory and run the following commands.
 
-```
+```sh
 $ docker build -t embedrank .
 $ docker run --rm -p 8080:8080 --memory 7g -it embedrank
 ```
 
-```
+```sh
 $ curl -XPOST "localhost:8080/embedrank" --data-urlencode text='バーレーンの首都マナマ(マナーマとも)で現在開催されている
                                             ユネスコ(国際連合教育科学文化機関)の第42回世界遺産委員会は日本の推薦していた
                                             「長崎と天草地方の潜伏キリシタン関連遺産」 (長崎県、熊本県)を30日、
